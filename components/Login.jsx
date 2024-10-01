@@ -3,9 +3,8 @@ import React from 'react';
 
 const Login = (props) => {
   return (
-    <View style={styles.container} className="flex-1 bg-black">
+    <View className="flex-1 bg-red-900  ">
       <Text style={styles.text}>Login Page</Text>
-      {/* Correct use of Button with 'title' prop */}
       <Button
         title="Go to Home" // Add 'title' for the button's text
         color="blue" // Use color prop for button color
