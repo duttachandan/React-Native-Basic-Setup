@@ -17,6 +17,11 @@ const Home = (props) => {
       </View>
 
       <View>
+        {/* <Button
+          color={'orange'}
+          title="ElevatedCards"
+          onPress={() => props.navigation.navigate('ElevatedCards')}
+        /> */}
         <Button
           color={'orange'}
           title="ChaiCode"
@@ -48,16 +53,16 @@ const Home = (props) => {
           onPress={() => props.navigation.navigate('Listing')}
         />
 
-        <Button
+        {/* <Button
           color={'orange'}
           title="Section Listing"
           onPress={() => props.navigation.navigate('SectionListing')}
-        />
+        /> */}
 
-        <Button
+        {/* <Button
           title="SimpleForm"
           onPress={() => props.navigation.navigate('SimpleForm')}
-        />
+        /> */}
 
         {/* <Button
           title="Login"

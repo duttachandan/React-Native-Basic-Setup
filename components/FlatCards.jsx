@@ -21,6 +21,9 @@ export default function FlatCards() {
         <View style={[styles.card, styles.cardOne]}>
           <Text> Red</Text>
         </View>
+        <View style={[styles.card, styles.cardOne]}>
+          <Text> Red</Text>
+        </View>
       </View>
     </View>
   );
@@ -37,7 +40,7 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
-    padding: 5,
+    padding: 8,
   },
   card: {
     flex: 1,

@@ -14,6 +14,7 @@ import ScrollViewData from './components/ScrollViewData';
 import ModalCom from './components/ModalCom';
 import Layout from './components/layout';
 import ChaiCode from './components/ChaiCode';
+import ElevatedCards from './components/ElevatedCards';
 
 const Stack = createNativeStackNavigator();
 
@@ -55,6 +56,11 @@ const App = () => {
           name="ModalCom"
           component={ModalCom}
           options={{ title: 'ModalCom' }}
+        />
+        <Stack.Screen
+          name="ElevatedCards"
+          component={ElevatedCards}
+          options={{ title: 'ElevatedCards' }}
         />
 
         <Stack.Screen
